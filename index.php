@@ -19,6 +19,7 @@
     <script src="assets/js/main.js"></script>
 </head>
 <body>
+
     <?php 
         include('templates/header.php');
     ?>
@@ -29,8 +30,14 @@
         <div><img src="assets/images/s3.jpg" alt=""></div>
         <div><img src="assets/images/s4.jpg" alt=""></div>
     </div>
-    
+
+    <?php 
+        include('templates/content.php');
+    ?>
+
     <?php 
         include('templates/footer.php');
     ?>
+
+
 </body>
